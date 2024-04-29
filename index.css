@@ -112,3 +112,15 @@ main{
     max-width: auto;
     margin: auto;
 }
+
+@media (max-width: 1189px) {
+    .projectNav {
+        align-items: center;
+
+    }
+
+    .contactNav{
+        align-items: center;
+    }
+
+}
