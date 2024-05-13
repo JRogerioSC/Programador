@@ -26,11 +26,22 @@ header img {
 
 .center {
 text-align: center;
+padding: 30px;
 }
 
+
 h1 {
+    display: flex;
+    padding: 20px;
     color: #5bbe42;
+
 }
+
+h2{
+    display: flex;
+    padding: 20px;
+}
+    
 
 footer img {
 width: 40px;
@@ -51,12 +62,25 @@ footer p {
     margin-top: 2px;
 }
 
+footer a :hover{
+    color: blue;
+    transition: 1s;
+}
+
 .container {
     padding: 0px 50px;
 }
 
 nav a:hover{
-    color: #5bbe42;
+    color: blue;
+    transition: 1s;
+}
+
+nav{
+    display: block;
+    background-color: rgb(16, 16, 19);
+    height: 38px;
+    border-radius: 5px;
 }
 
 .linkedin{
