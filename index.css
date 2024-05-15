@@ -140,11 +140,13 @@ main{
 @media (max-width: 1189px) {
     .projectNav {
         align-items: center;
-
+        font-size: 500;
+        
     }
 
     .contactNav{
         align-items: center;
+        font-size: 500;
     }
 
 }
