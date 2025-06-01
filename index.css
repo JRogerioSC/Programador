@@ -1,18 +1,18 @@
-body{
+body {
     color: white;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
-display: flex;
-justify-content: space-between;
-list-style-type: none;
-align-items: center;
-padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
@@ -25,8 +25,8 @@ header img {
 }
 
 .center {
-text-align: center;
-padding: 30px;
+    text-align: center;
+    padding: 30px;
 }
 
 
@@ -37,15 +37,15 @@ h1 {
 
 }
 
-h2{
+h2 {
     display: flex;
     padding: 20px;
 }
-    
+
 
 footer img {
-width: 40px;
-height: 40px;
+    width: 40px;
+    height: 40px;
 }
 
 footer {
@@ -62,7 +62,7 @@ footer p {
     margin-top: 2px;
 }
 
-footer a :hover{
+footer a :hover {
     color: blue;
     transition: 1s;
 }
@@ -71,80 +71,80 @@ footer a :hover{
     padding: 0px 50px;
 }
 
-nav a:hover{
+nav a:hover {
     color: blue;
     transition: 1s;
 }
 
-nav{
+nav {
     display: block;
     background-color: rgb(16, 16, 19);
     height: 38px;
     border-radius: 5px;
 }
 
-.linkedin{
-color: blue;
-font-size: 50px;
-}
-
-.email{
- color: white;
-    font-size: 50px;
-}
-
-.facebook{
+.linkedin {
     color: blue;
     font-size: 50px;
 }
 
-.instagram{
+.email {
+    color: white;
+    font-size: 50px;
+}
+
+.facebook {
+    color: blue;
+    font-size: 50px;
+}
+
+.instagram {
     color: chartreuse;
     font-size: 50px;
 
 }
 
-.programador{
-color: gold;
-font-size: 30px;
+.programador {
+    color: gold;
+    font-size: 30px;
 
 }
 
-.videos_privados{
-color: crimson;
-font-size: 30px;
+.videos_privados {
+    color: crimson;
+    font-size: 30px;
 
 }
 
-.meus_arquivos{
-color: cornflowerblue;
-font-size: 30px;
+.meus_arquivos {
+    color: cornflowerblue;
+    font-size: 30px;
 
 }
 
-.site{
+.site {
     color: honeydew;
     font-size: 30px;
 }
 
-main{
+main {
     padding: 20px;
     border-radius: 10px;
 
 
     min-width: auto;
     max-width: auto;
-    margin: auto;
+    margin: auto;
 }
 
 @media (max-width: 1189px) {
     .projectNav {
         align-items: center;
         font-size: 500;
-        
+
     }
 
-    .contactNav{
+    .contactNav {
         align-items: center;
         font-size: 500;
     }
